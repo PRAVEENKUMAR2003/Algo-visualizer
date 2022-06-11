@@ -50,8 +50,6 @@
             text(arr[i], 10 + i*barWidth + barWidth/2, windowHeight-125-barHeight);
             rect(10 + i*barWidth, windowHeight-120-barHeight, barWidth, barHeight);
         }
-        slider = createSlider(-33, 100, 0);
-        slider.position(10, 80);
         but = true
     }
     function sor()
