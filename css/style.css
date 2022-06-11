@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+body
+{
+    background: rgb(31, 31, 31);
+    background-blend-mode: multiply;
+}
+.fun
+{
+    height: 86vh;
+    background: rgb(31, 31, 31);
+
+}
+nav
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navlink
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.slide
+{
+    width: 12vw;
+    height: 4vh;
+}
+button
+{
+    border: 0;
+}
